@@ -1,0 +1,11 @@
+Tree = (MEGABAT:0.0786,(MICROBAT:0.1364,(RFE:0.0111,(RPEPE:0.0087,(RYUN:0.0094,(RPECH:0.01,(RRE:0.0105,(RSISI:0.0007,(RSISE:0.0019,RAF:0.0003):0.003):0.0081):0.000001):0.002):0.000001):0.0041):0.0685):0.000001);
+Length = 1000
+Model = "GTR"
+Params = {1,3.9,0.35,1.7,3.7,1}
+Freqs = {0.38, 0.28, 0.17, 0.17}
+GapModel = "PL"
+GapParams = {6.2, 50}
+Lambda  = 0.0125
+Alpha = 1.6
+File = "DAWG.fas"
+Format = "Fasta"

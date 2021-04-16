@@ -1,0 +1,22 @@
+[TYPE] NUCLEOTIDE 1
+
+[MODEL] GTR   //ct//at//gt//ac//cg//ag
+[submodel] GTR 3.7 0.35 1 1 1.7 3.9
+            //T  //C  //A  //G
+[statefreq] 0.38 0.28 0.17 0.17
+[rates] 0 1.6 3
+[indelmodel] LAV 6.2 50
+[indelrate] 0.00125
+
+[TREE] t1 (MEGABAT:0.0786,(MICROBAT:0.1364,(RFE:0.0111,(RPEPE:0.0087,(RYUN:0.0094,(RPECH:0.01,(RRE:0.0105,(RSISI:0.0007,(RSISE:0.0019,RAF:0.0003):0.003):0.0081):0.000001):0.002):0.000001):0.0041):0.0685):0.000001);
+
+[PARTITIONS] 
+GT
+[t1 GTR 1000]
+
+//sequence length
+
+[EVOLVE] 
+GT 1 LAV
+
+//number of repeats
